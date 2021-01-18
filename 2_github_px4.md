@@ -296,6 +296,7 @@ tar cf px4_ros_com.tar ./px4_ros_com
 tar cf px4_msgs.tar ./px4_msgs
 tar cf PX4-ECL.tar ./PX4-ECL
 tar cf PX4-Matrix.tar ./PX4-Matrix
+
 tar cf PX4-GPSDrivers.tar ./PX4-GPSDrivers
 tar cf PX4-SITL_gazebo.tar ./PX4-SITL_gazebo
 tar cf flight_review.tar ./flight_review
@@ -319,6 +320,10 @@ tar cf styleguide.tar ./styleguide
 tar cf rddrone_uavcan.tar ./rddrone_uavcan
 tar cf HIL.tar ./HIL
 tar cf sapog.tar ./sapog
+
+
+
+
 tar cf Firmware-Doxygen.tar ./Firmware-Doxygen
 tar cf gencpp.tar ./gencpp
 tar cf genmsg.tar ./genmsg
@@ -330,6 +335,7 @@ tar cf px4_msgs-release.tar ./px4_msgs-release
 tar cf DriverFramework.tar ./DriverFramework
 tar cf eigen.tar ./eigen
 tar cf Board_ID.tar ./Board_ID
+
 tar cf uvc_ros_driver.tar ./uvc_ros_driver
 tar cf mav_comm.tar ./mav_comm
 tar cf cmake_hexagon.tar ./cmake_hexagon
@@ -340,6 +346,7 @@ tar cf snap_cam.tar ./snap_cam
 tar cf ros-examples.tar ./ros-examples
 tar cf disparity_to_point_cloud.tar ./disparity_to_point_cloud
 tar cf rfcs.tar ./rfcs
+
 tar cf UAVCAN_Bootloaders.tar ./UAVCAN_Bootloaders
 tar cf uavcan_board_ident.tar ./uavcan_board_ident
 tar cf PX4NuttX.tar ./PX4NuttX
@@ -348,6 +355,7 @@ tar cf dspal.tar ./dspal
 tar cf Toolchains.tar ./Toolchains
 tar cf homebrew-qt4.tar ./homebrew-qt4
 tar cf px4ros.tar ./px4ros
+
 tar cf companion.tar ./companion
 tar cf rotors_simulator.tar ./rotors_simulator
 tar cf fw-test-harness.tar ./fw-test-harness
@@ -361,9 +369,9 @@ tar cf libtomcrypt.tar ./libtomcrypt
 
 ### 6 scp
 
-#sshpass -p x6scMyMSYhyz scp -P 29962 root@96.45.180.86:/home/samba_root/ws_gst/*.tar .
+#sshpass -p x6scMyMSYhyz scp -P 29962 root@96.45.180.86:/home/samba_root/ws_px4/*.tar .
 ```shell
-scp -P 29962 root@96.45.180.86:/home/samba_root/ws_gst/*.tar .
+scp -P 29962 root@96.45.180.86:/home/samba_root/ws_px4/*.tar .
 x6scMyMSYhyz
 ```
 
