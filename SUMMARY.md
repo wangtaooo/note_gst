@@ -7,4 +7,5 @@
 * [4 QGC Build](4_qgc_build.md)
 * [5 Jetson download ](5_jetson_download.md)
 * [6 Leopard patch ](6_leopard_patch.md)
+* [7 Remote server ](7_remote_server.md)
 
